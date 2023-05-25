@@ -1,5 +1,8 @@
 <template>
-  <div class="DefaultLayout"></div>
+  <div class="DefaultLayout">
+    <LayoutsHeader />
+    <slot></slot>
+  </div>
 </template>
 
 <script setup lang="ts">
