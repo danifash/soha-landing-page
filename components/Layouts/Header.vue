@@ -1,5 +1,7 @@
 <template>
-  <div class="LayoutHeader bg-secondary shadow-xl text-white">
+  <div
+    class="LayoutHeader bg-secondary shadow-lg text-white z-10 fixed top-0 right-0 w-full"
+  >
     <div class="container mx-auto flex justify-between items-center px-8 py-4">
       <img src="@/assets/images/logo.svg" alt="" />
       <ul class="flex gap-9 h-fit">

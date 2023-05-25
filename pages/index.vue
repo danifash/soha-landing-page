@@ -1,5 +1,7 @@
 <template>
-  <div class="index"></div>
+  <div class="index">
+    <IndexHeroSection />
+  </div>
 </template>
 
 <script setup lang="ts">
