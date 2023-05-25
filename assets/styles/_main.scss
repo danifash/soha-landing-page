@@ -2,3 +2,29 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@import "./fonts";
+
+// theme css variables ------------------------------------
+@layer base {
+  :root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-transparent: transparent;
+    --color-text: #515553;
+    --color-primary: #6fc54c;
+    --color-secondary: #325343;
+    --color-button: #9bd58b;
+    --color-yellow: #f8e16c;
+    --color-red: #fc5555;
+  }
+}
+
+* {
+  font-family: "IRANSans", sans-serif;
+}
+
+body {
+  color: theme("colors.text");
+  background-color: theme("colors.white");
+}

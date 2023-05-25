@@ -1,0 +1,49 @@
+@font-face {
+  font-family: IRANSansBlack;
+  src: url("../fonts/IRANSansXFaNum-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSansBold;
+  src: url("../fonts/IRANSansXFaNum-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSansLight;
+  src: url("../fonts/IRANSansXFaNum-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSansMedium;
+  src: url("../fonts/IRANSansXFaNum-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSansUltraLight;
+  src: url("../fonts/IRANSansXFaNum-UltraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  src: url("../fonts/IRANSansXFaNum-Regular.ttf") format("truetype");
+}
+
+.font-bl {
+  font-family: "IRANSansBlack";
+}
+
+.font-bo {
+  font-family: "IRANSansBold";
+}
+
+.font-li {
+  font-family: "IRANSansLight";
+}
+
+.font-me {
+  font-family: "IRANSansMedium";
+}
+
+.font-no {
+  font-family: "IRANSans";
+}
