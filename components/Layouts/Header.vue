@@ -1,9 +1,9 @@
 <template>
-  <div class="LayoutHeader bg-secondary shadow-md text-white">
-    <div class="container mx-auto flex justify-between items-center">
-      <img src="/assets/images/logo.svg" alt="" />
-      <ul class="flex gap-4">
-        <li class="text-sm">خانه</li>
+  <div class="LayoutHeader bg-secondary shadow-xl text-white">
+    <div class="container mx-auto flex justify-between items-center px-8 py-4">
+      <img src="@/assets/images/logo.svg" alt="" />
+      <ul class="flex gap-9 h-fit">
+        <li class="text-sm border-b-2 border-primary h-full">خانه</li>
         <li class="text-sm">درمانگران‌ما</li>
         <li class="text-sm">همکاری با ما</li>
         <li class="text-sm">مقتلات</li>
@@ -13,26 +13,17 @@
         <li class="text-sm">درباره ما</li>
         <li class="text-sm">پشتیبانی</li>
       </ul>
+      <button class="px-14 py-3 border border-white rounded-full text-sm">
+        ورود / ثبت نام
+      </button>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-import type { Ref } from "vue";
-
-// plugins and composable variables -------------------------------
-
-// props ----------------------------------------------------------
-
-// data variables -------------------------------------------------
-
-// emits events ---------------------------------------------------
-
-// lifecycle hooks ------------------------------------------------
-
-// computed methods -----------------------------------------------
-
-// internal events ------------------------------------------------
-
-// watchers -------------------------------------------------------
-</script>
+<style scoped lang="scss">
+ul {
+  li {
+    cursor: pointer;
+  }
+}
+</style>
