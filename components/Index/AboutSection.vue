@@ -36,7 +36,7 @@
           </div>
         </div>
         <img src="@/assets/images/arrow_forward.svg" alt="" class="mx-auto" />
-        <!------ second details ------>
+        <!------ third details ------>
         <div class="flex items-center justify-center pt-28">
           <div>
             <h3 class="text-xl font-semibold max-w-[550px] mb-4 leading-loose">
@@ -49,5 +49,20 @@
       </div>
     </div>
     <img src="@/assets/images/rec3.svg" alt="" class="w-full" />
+    <!------- forth details ------->
+    <div class="flex items-center justify-center gap-28 py-28">
+      <div>
+        <h3 class="text-xl font-semibold max-w-[550px] mb-4 leading-loose">
+          یکی از خدمات ویژه ما تراپی در منزل است. شما بدون مراجعه به کیلینک
+          می‌توانید جلسات درمان را در منزل انجام دهید.
+        </h3>
+        <button
+          class="px-[60px] py-3 bg-button rounded-full font-semibold text-sm"
+        >
+          تراپی در منزل
+        </button>
+      </div>
+      <img src="@/assets/images/home-trapi.png" alt="" />
+    </div>
   </div>
 </template>
