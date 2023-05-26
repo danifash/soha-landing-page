@@ -34,3 +34,9 @@ body {
   color: theme("colors.text");
   background-color: theme("colors.white");
 }
+
+ul {
+  li {
+    cursor: pointer;
+  }
+}

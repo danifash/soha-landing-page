@@ -2,6 +2,7 @@
   <div class="DefaultLayout">
     <LayoutsHeader />
     <slot></slot>
+    <LayoutsFooter />
   </div>
 </template>
 

@@ -21,11 +21,3 @@
     </div>
   </div>
 </template>
-
-<style scoped lang="scss">
-ul {
-  li {
-    cursor: pointer;
-  }
-}
-</style>
