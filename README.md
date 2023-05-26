@@ -1,6 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Soha landing page
 
 ## Setup
 
@@ -14,12 +12,12 @@ yarn install
 npm install
 
 # pnpm
-pnpm install
+pnpm install --shamefully-hoist
 ```
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`
+Start the development server on http://localhost:3000
 
 ```bash
 npm run dev
@@ -39,4 +37,13 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Contributors
+
+<table> 
+    <tr>
+        <td align="center"><a href="https://github.com/DtechB"><img
+                src="https://avatars.githubusercontent.com/u/86948741?v=4"  width="100px;"  height="100px;"
+                alt="danial"/><br/><sub><b>Danial</b></sub></a><br/><a
+                 title="Code">💻</a></td>
+    </tr>
+</table>
