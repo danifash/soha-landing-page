@@ -3,6 +3,7 @@
     <IndexHeroSection />
     <IndexStateSection />
     <IndexAboutSection />
+    <IndexBenefitsSection />
   </div>
 </template>
 
