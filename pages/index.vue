@@ -4,6 +4,7 @@
     <IndexStateSection />
     <IndexAboutSection />
     <IndexBenefitsSection />
+    <IndexTestimonialSection />
   </div>
 </template>
 

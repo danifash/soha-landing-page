@@ -1,5 +1,5 @@
 <template>
-  <div class="HeroSection flex flex-col items-center mb-20">
+  <div class="StateSection flex flex-col items-center mb-20">
     <img
       src="@/assets/images/arrow_forward.svg"
       alt=""
