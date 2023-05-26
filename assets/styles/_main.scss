@@ -1,0 +1,42 @@
+// tailwindcss config
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./fonts";
+
+// theme css variables ------------------------------------
+@layer base {
+  :root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-transparent: transparent;
+    --color-text: #515553;
+    --color-primary: #6fc54c;
+    --color-secondary: #325343;
+    --color-button: #9bd58b;
+    --color-yellow: #f8e16c;
+    --color-red: #fc5555;
+    --color-blue: #457777;
+    --color-orange: #fd5e08;
+    --color-green: #4a7a3e;
+    --color-border: #dbdbdb;
+    --color-cream: #f7f0e6;
+  }
+}
+
+* {
+  font-family: "IRANSans", sans-serif;
+  direction: rtl;
+}
+
+body {
+  color: theme("colors.text");
+  background-color: theme("colors.white");
+}
+
+ul {
+  li {
+    cursor: pointer;
+  }
+}
