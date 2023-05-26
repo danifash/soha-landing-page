@@ -2,6 +2,7 @@
   <div class="index">
     <IndexHeroSection />
     <IndexStateSection />
+    <IndexAboutSection />
   </div>
 </template>
 
