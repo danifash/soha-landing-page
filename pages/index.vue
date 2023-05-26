@@ -1,6 +1,7 @@
 <template>
   <div class="index">
     <IndexHeroSection />
+    <IndexStateSection />
   </div>
 </template>
 

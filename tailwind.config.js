@@ -23,6 +23,7 @@ module.exports = {
       blue: "#457777",
       orange: "#FD5E08",
       green: "#4A7A3E",
+      border: "#DBDBDB",
     },
   },
   plugins: [],
